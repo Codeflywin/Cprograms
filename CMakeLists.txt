@@ -3,5 +3,6 @@ project(Cprograms C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Cprograms printName.c
-        new.c)
+
+add_executable(printName printName.c)
+add_executable(moduloProgram moduloProgram.c)
