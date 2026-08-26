@@ -15,12 +15,18 @@ int main() {
     scanf("%d", &val2);
 
 //Need the sum of the numbers between values 1 and 2
-if (val1 <= val2) {
+//Determine which number is higher and loop up if higher first
+    if (val1 <= val2) {
     for (int i = val1; i <= val2; i++) {
+
+//Implement the DO loop
         sumtotal += i;
     }
+//Loop down if the lower number was entered first
 } else {
     for (int i = val1; i >= val2; i--) {
+
+//Implement DO loop
         sumtotal += i;
     }
 }
