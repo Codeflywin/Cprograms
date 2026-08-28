@@ -18,6 +18,7 @@ int main() {
     int area (int length, int width);
     return length * width;
 
+//Print the result
     printf("The area of the rectangle is %d\n", area);
     return 0;
 
